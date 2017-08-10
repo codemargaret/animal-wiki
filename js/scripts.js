@@ -1,0 +1,11 @@
+$(document).ready(function(){
+  $(".clickable1").click(function(){
+    $("#turtles").toggle();
+  })
+  $(".clickable2").click(function(){
+    $("#snakes").toggle();
+  })
+  $(".clickable3").click(function(){
+    $("#insects").toggle();
+  })
+});
